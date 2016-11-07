@@ -4,8 +4,8 @@ import java.util.*;
 public class Lab1A {
 
     /**
-     *
-     * @param args 
+     * This method .....
+     * @param args "element file" where element is the sought integer and file contains sorted integers separated by spaces
      * @throws java.io.FileNotFoundException if the specified text file does not exist
      * @throws IllegalArgumentException if the amount of arguments specified is not = 1
      */
@@ -34,7 +34,7 @@ public class Lab1A {
     }
 
     /**
-     *
+     * This method converts an ArrayList of integers to an integer array int[]
      * @param integerList a sorted ArrayList of Integers
      * @return  an array of type int containing the same sorted integers
      *
