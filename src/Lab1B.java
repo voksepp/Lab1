@@ -7,7 +7,7 @@ public class Lab1B {
      * @param args "element file" where element is the sought integer and file contains sorted integers separated by spaces
      * @throws java.io.FileNotFoundException if the specified text file does not exist
      * @throws IllegalArgumentException if the amount of arguments specified is not = 1
-     * 
+     *
      */
     public static void main(String[] args) throws FileNotFoundException {
         if (args.length != 2)
