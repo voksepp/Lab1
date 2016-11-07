@@ -17,7 +17,7 @@ public class Lab1B {
         while (sc.hasNextInt())
             integerList.add(sc.nextInt());
 
-        Integer[] intArray = integerList.toArray(new Integer[0]);
+        Integer[] intArray = integerList.toArray(new Integer[integerList.size()]);
 
         MySortedArray<Integer> sortedArray = new MySortedArray<>(intArray);
 
