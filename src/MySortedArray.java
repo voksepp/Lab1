@@ -4,7 +4,7 @@ public class MySortedArray<E extends Comparable<? super E>> implements MySet<E> 
 
     /**
      * Constructor for class MySortedArray, takes an array of elements E
-     * @param eArray
+     * @param eArray an array of elements E
      */
     public MySortedArray(E[] eArray){
         this.eArray = eArray;

@@ -4,7 +4,7 @@ public class MyIntSortedArray implements MyIntSet {
 
     /**
      * Constructor for class MyIntSortedArray, takes an int[]
-     * @param intArray
+     * @param intArray an array of int
      */
     public MyIntSortedArray (int[] intArray){
         this.intArray = intArray;

@@ -1,3 +1,3 @@
 public interface MySet<E> {
-    public boolean member(E element);
+    boolean member(E element);
 }
