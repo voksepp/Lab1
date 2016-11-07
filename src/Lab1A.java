@@ -3,6 +3,12 @@ import java.util.*;
 
 public class Lab1A {
 
+    /**
+     *
+     * @param args
+     * @throws java.io.FileNotFoundException
+     * @throws IllegalArgumentException
+     */
     public static void main(String[] args) throws java.io.FileNotFoundException, IllegalArgumentException {
 
         if (args.length != 2)

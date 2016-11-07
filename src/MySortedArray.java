@@ -2,10 +2,19 @@ public class MySortedArray<E extends Comparable<? super E>> implements MySet<E> 
 
     private final E[] eArray;
 
+    /**
+     *
+     * @param eArray
+     */
     public MySortedArray(E[] eArray){
         this.eArray = eArray;
     }
 
+    /**
+     *
+     * @param element
+     * @return
+     */
     @Override
     public boolean member(E element) {
         int iLow = 0;

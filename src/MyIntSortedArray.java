@@ -2,10 +2,19 @@ public class MyIntSortedArray implements MyIntSet {
 
     private final int[] intArray;
 
+    /**
+     *
+     * @param intArray
+     */
     public MyIntSortedArray (int[] intArray){
         this.intArray = intArray;
     }
 
+    /**
+     *
+     * @param element
+     * @return
+     */
     @Override
     public boolean member(int element) {
         int low = 0;

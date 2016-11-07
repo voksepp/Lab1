@@ -2,7 +2,11 @@ import java.io.*;
 import java.util.*;
 
 public class Lab1B {
-
+    /**
+     *
+     * @param args
+     * @throws FileNotFoundException
+     */
     public static void main(String[] args) throws FileNotFoundException {
         if (args.length != 2)
             throw new IllegalArgumentException("Two arguments required");
