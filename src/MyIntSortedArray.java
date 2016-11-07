@@ -3,7 +3,7 @@ public class MyIntSortedArray implements MyIntSet {
     private final int[] intArray;
 
     /**
-     *
+     * Constructor for class MyIntSortedArray, takes an int[]
      * @param intArray
      */
     public MyIntSortedArray (int[] intArray){
@@ -11,9 +11,9 @@ public class MyIntSortedArray implements MyIntSet {
     }
 
     /**
-     *
-     * @param element
-     * @return
+     * This method implements binary search for an int array, searches the class variable int array for the specified element.
+     * @param element Sought integer
+     * @return true if the array contains the element, else false.
      */
     @Override
     public boolean member(int element) {
