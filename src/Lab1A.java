@@ -18,7 +18,7 @@ public class Lab1A {
         while (sc.hasNextInt())
             integerList.add(sc.nextInt());
 
-        int[] intArray = convertIntegersToInt(integerList);
+        int[] intArray = convertIntListToArray(integerList);
 
         MyIntSortedArray sortedArray = new MyIntSortedArray(intArray);
 
@@ -27,12 +27,12 @@ public class Lab1A {
         System.out.println(isMember);
     }
 
-    private static int[] convertIntegersToInt(List<Integer> integerList)
+    private static int[] convertIntListToArray(List<Integer> integerList)
     {
         int[] intArray = new int[integerList.size()];
 
         for (int i=0; i < intArray.length; i++)
-            intArray[i] = integerList.get(i).intValue();
+            intArray[i] = integerList.get(i);
 
         return intArray;
     }
