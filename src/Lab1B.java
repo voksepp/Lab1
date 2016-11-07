@@ -17,22 +17,12 @@ public class Lab1B {
         while (sc.hasNextInt())
             integerList.add(sc.nextInt());
 
-        Integer[] intArray = convertListToArray(integerList);
+        Integer[] intArray = integerList.toArray(new Integer[0]);
 
         MySortedArray<Integer> sortedArray = new MySortedArray<>(intArray);
 
         boolean isMember = sortedArray.member(element);
 
         System.out.println(isMember);
-    }
-
-    private static Integer[] convertListToArray(List<Integer> integerList)
-    {
-        Integer[] intArray = new Integer[integerList.size()];
-
-        for (int i=0; i < intArray.length; i++)
-            intArray[i] = integerList.get(i);
-
-        return intArray;
     }
 }
