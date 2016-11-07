@@ -5,9 +5,9 @@ public class Lab1A {
 
     /**
      *
-     * @param args
-     * @throws java.io.FileNotFoundException
-     * @throws IllegalArgumentException
+     * @param args 
+     * @throws java.io.FileNotFoundException if the specified text file does not exist
+     * @throws IllegalArgumentException if the amount of arguments specified is not = 1
      */
     public static void main(String[] args) throws java.io.FileNotFoundException, IllegalArgumentException {
 
