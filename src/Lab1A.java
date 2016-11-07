@@ -27,6 +27,12 @@ public class Lab1A {
         System.out.println(isMember);
     }
 
+    /**
+     *
+     * @param integerList a sorted ArrayList of Integers
+     * @return  an array of type int containing the same sorted integers
+     *
+     */
     private static int[] convertIntListToArray(List<Integer> integerList)
     {
         int[] intArray = new int[integerList.size()];
