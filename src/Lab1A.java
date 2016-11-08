@@ -16,7 +16,7 @@ public class Lab1A {
 
         int element = Integer.parseInt(args[0]);                                // saves the sought integer as a variable
         String file = args[1];                                                  // saves the file name
-
+3
         List<Integer> integerList = new ArrayList<>();                          // creates an ArrayList for storage of the integers
 
         Scanner sc = new Scanner(new File(file));                               // adding integers from file to new ArrayList
