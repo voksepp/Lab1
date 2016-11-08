@@ -10,8 +10,9 @@ public class Lab1B {
      *
      */
     public static void main(String[] args) throws FileNotFoundException {
-        if (args.length != 2)
+        if (args.length != 2) {
             throw new IllegalArgumentException("Two arguments required");
+        }
 
         Integer element = Integer.parseInt(args[0]);                                //Sought element
         String file = args[1];                                                      //The filename
@@ -20,8 +21,9 @@ public class Lab1B {
 
         Scanner sc = new Scanner(new File(file));                                   //Adding integers from file to new ArrayList
 
-        while (sc.hasNextInt())
+        while (sc.hasNextInt()) {
             integerList.add(sc.nextInt());                                          //Fill the integerlist with what is in the file
+        }
 
         Integer[] intArray = integerList.toArray(new Integer[integerList.size()]);  //Save what's in the Integerlist to an array of Integers
 

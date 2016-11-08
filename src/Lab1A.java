@@ -11,8 +11,9 @@ public class Lab1A {
      */
     public static void main(String[] args) throws java.io.FileNotFoundException, IllegalArgumentException {
 
-        if (args.length != 2)                                                   // making sure that two arguments are provided
+        if (args.length != 2) {                                                 // making sure that two arguments are provided
             throw new IllegalArgumentException("Two arguments required");
+        }
 
         int element = Integer.parseInt(args[0]);                                // saves the sought integer as a variable
         String file = args[1];                                                  // saves the file name
@@ -21,8 +22,9 @@ public class Lab1A {
 
         Scanner sc = new Scanner(new File(file));                               // adding integers from file to new ArrayList
 
-        while (sc.hasNextInt())                                                 // saving the integers from the file into the list
+        while (sc.hasNextInt()) {                                                 // saving the integers from the file into the list
             integerList.add(sc.nextInt());
+        }
 
         int[] intArray = convertIntListToArray(integerList);                    // converting the list to an array
 
@@ -42,8 +44,9 @@ public class Lab1A {
     {
         int[] intArray = new int[integerList.size()];                           // creates a new int array with the same size as the provided list
 
-        for (int i=0; i < intArray.length; i++)                                 // saves each element of the list into the array
+        for (int i=0; i < intArray.length; i++) {                              // saves each element of the list into the array
             intArray[i] = integerList.get(i);                                   // implied unboxing
+        }
 
         return intArray;
     }
