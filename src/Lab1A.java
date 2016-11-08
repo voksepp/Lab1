@@ -37,7 +37,6 @@ public class Lab1A {
      * This method converts an ArrayList of integers to an integer array int[]
      * @param integerList a sorted ArrayList of Integers
      * @return  an array of type int containing the same sorted integers
-     *
      */
     private static int[] convertIntListToArray(List<Integer> integerList)
     {
