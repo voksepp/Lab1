@@ -1,5 +1,7 @@
-Hej
+Översikt över kod:
 
+Lab1A: binärsökning för int
+Lab1B: generell binärsökning
 
-
-Vi tror att vår kod är korrekt för att vi har skrivit den
+MyIntSet och MyIntSortedArray tillhör Lab1A.
+MySet och MySortedArray tillhör Lab1B.
