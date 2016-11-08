@@ -22,7 +22,7 @@ public class Lab1A {
 
         Scanner sc = new Scanner(new File(file));                               // adding integers from file to new ArrayList
 
-        while (sc.hasNextInt()) {                                                 // saving the integers from the file into the list
+        while (sc.hasNextInt()) {                                               // saving the integers from the file into the list
             integerList.add(sc.nextInt());
         }
 
@@ -44,7 +44,7 @@ public class Lab1A {
     {
         int[] intArray = new int[integerList.size()];                           // creates a new int array with the same size as the provided list
 
-        for (int i=0; i < intArray.length; i++) {                              // saves each element of the list into the array
+        for (int i=0; i < intArray.length; i++) {                               // saves each element of the list into the array
             intArray[i] = integerList.get(i);                                   // implied unboxing
         }
 
