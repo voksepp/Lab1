@@ -33,3 +33,6 @@ algoritmen utan att beteendet skiljer sig på något sätt. Till exempel
 i olika fall där en textfil har varit både 0 lång och en textfil som är
 upp emot 20 lång har programmet utfört och hittat (eller inte hittat)
 sökt värde som väntat.
+
+
+Bös
