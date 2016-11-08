@@ -7,32 +7,9 @@ MyIntSet och MyIntSortedArray tillhör Lab1A.
 MySet och MySortedArray tillhör Lab1B.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Vi tror att vår kod är korrekt eftersom den är generellt implementerad
 och därför kan programmet ta emot godtyckliga arrayer och köra
 algoritmen utan att beteendet skiljer sig på något sätt. Till exempel
 i olika fall där en textfil har varit både 0 lång och en textfil som är
 upp emot 20 lång har programmet utfört och hittat (eller inte hittat)
 sökt värde som väntat.
-
-
-Bös
