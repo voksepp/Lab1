@@ -7,7 +7,7 @@ public class MyIntSortedArray implements MyIntSet {
      * @param intArray an array of int
      */
     public MyIntSortedArray (int[] intArray){
-        this.intArray = intArray;
+        this.intArray = intArray;                                       // sets the int array as a class variable
     }
 
     /**
@@ -17,20 +17,20 @@ public class MyIntSortedArray implements MyIntSet {
      */
     @Override
     public boolean member(int element) {
-        int low = 0;
-        int high = intArray.length - 1;
+        int low = 0;                                                    // first index of the array
+        int high = intArray.length - 1;                                 // last index of the array
 
-        while (low <= high) {
+        while (low <= high) {                                           // runs while the search interval is >0
             int mid = (low + high) >>> 1;
-            int midVal = intArray[mid];
+            int midVal = intArray[mid];                                 // saves the central element in the search interval
 
-            if (midVal < element)
-                low = mid + 1;
-            else if (midVal > element)
-                high = mid - 1;
+            if (midVal < element)                                       // if sought element > midVal
+                low = mid + 1;                                          // set new low index above midVal
+            else if (midVal > element)                                  // if sought element < midVal
+                high = mid - 1;                                         // set new high index below midVal
             else
-                return true;
+                return true;                                            // else the element has been found
         }
-        return false;
+        return false;                                                   // if the element is not in the array
     }
 }
