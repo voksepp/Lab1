@@ -11,7 +11,7 @@ public class MySortedArray<E extends Comparable<? super E>> implements MySet<E> 
     }
 
     /**
-     * This method implements binary search for an generically, searches the class variable array for the specified element.
+     * This method implements binary search generically, searches an array for the specified element.
      * @param element Sought element
      * @return true if the array contains the element, else false.
      */
