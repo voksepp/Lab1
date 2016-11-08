@@ -1,1 +1,7 @@
-Hej
+Översikt över kod:
+
+Lab1A: binärsökning för int
+Lab1B: generell binärsökning
+
+MyIntSet och MyIntSortedArray tillhör Lab1A.
+MySet och MySortedArray tillhör Lab1B.
