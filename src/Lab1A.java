@@ -39,7 +39,7 @@ public class Lab1A {
      * @return  an array of type int containing the same sorted integers
      *
      */
-    private static int[] convertIntListToArray(List<Integer> integerList)
+    private static int[] convertIntListToArray(List<Integer> integerList)   //Hejsvej
     {
         int[] intArray = new int[integerList.size()];
 
