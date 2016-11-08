@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Lab1B {
     /**
-     *  This method Takes in 2 arguments which are the element that should be checked and the name of the file
+     * This method takes 2 arguments which are the element that should be checked and the name of the file
      * @param args "element file" where element is the sought integer and file contains sorted integers separated by spaces
      * @throws java.io.FileNotFoundException if the specified text file does not exist
      * @throws IllegalArgumentException if the amount of arguments specified is not = 1
