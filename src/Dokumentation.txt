@@ -33,8 +33,13 @@ public boolean member(E element) {
         return false;                               // O(1)
     }
 
+
+
 Since the algorithm splits the index in half when searching
 it is clear that the time complexity is O(log_2(n)).
+Explanation: How many times can n be divided by 2 before it is equal to 1?
+1 = n/(2^x) => 2^x = n => x*log_2(2) = log_2(n) => x = log_2(n).
+Therefore O(log_2(n)).
 
 
 
