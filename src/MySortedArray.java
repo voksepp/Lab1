@@ -34,7 +34,4 @@ public class MySortedArray<E extends Comparable<? super E>> implements MySet<E> 
         }
         return false;                               //Element is not found
     }
-
-    /*  Since the algorithm splits the index in half when searching
-    it is clear that the time complexity is O(log_2(n))  */
 }
