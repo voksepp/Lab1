@@ -1,24 +1,24 @@
-Översikt över kod:
+Code overview:
 
-Lab1A: binärsökning för int
-Lab1B: generell binärsökning
+Lab1A: binary search for int
+Lab1B: generic binary search
 
-MyIntSet och MyIntSortedArray tillhör Lab1A.
-MySet och MySortedArray tillhör Lab1B.
-
------
-Dokumentation:
-
-Dokumentation av individuella klasser, metoder, funktioner bifogas (Javadoc)
+MyIntSet and MyIntSortedArray are used in Lab1A.
+MySet and MySortedArray are used in Lab1B.
 
 -----
-Tidskomplexitet:
+Documentation:
+
+Documentation of individual functions, classes and methods is attached (Javadoc)
+
+-----
+Time complexity:
 
 public boolean member(E element) {
         int iLow = 0;                               // O(1)
         int iHigh = eArray.length - 1;              // O(1)
 
-        while (iLow <= iHigh) {                                 // för loop: O(log n) -> även för hela metoden
+        while (iLow <= iHigh) {                                 // for loop: O(log_2 n) -> även för hela metoden
             int iMid = (iLow + iHigh) >>> 1;        // O(1)
             E midVal = eArray[iMid];                // O(1)
 
@@ -41,19 +41,14 @@ Explanation: How many times can n be divided by 2 before it is equal to 1?
 1 = n/(2^x) => 2^x = n => x*log_2(2) = log_2(n) => x = log_2(n).
 Therefore O(log_2(n)).
 
-
-
-
 -----
 
-Testning:
+Testing:
 
-Vi tror att vår kod är korrekt eftersom den är generellt implementerad
-och därför kan programmet ta emot godtyckliga arrayer och köra
-algoritmen utan att beteendet skiljer sig på något sätt. Till exempel
-i olika fall där en textfil har varit både 0 lång och en textfil som är
-upp emot 20 lång har programmet utfört och hittat (eller inte hittat)
-sökt värde som väntat. Vi har testat många egna testfall och även kört
-testprogrammet flera gånger med olika parametrar.
-
-
+We believe our code is correct, it has been generically implemented and
+the program accepts any array and behaves correctly as far as we have
+been able to determine. In addition to using the supplied test file many
+times we have also written our own test programs. We have tested a number
+of different special cases, where the sought element is in the first,
+last, and central positions in the array. The method has also been
+adapted to be able to handle very large arrays.
