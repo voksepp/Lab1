@@ -39,8 +39,8 @@ Explanation: How many times can n be divided by 2 before it is equal to 1?
 1 = n/(2^x) => 2^x = n => x*log_2(2) = log_2(n) => x = log_2(n).
 Therefore O(log_2(n)).
 
-Each iteration in the while loop takes constant time, therefore the total
-complexity is derived from the number of iterations.
+Each iteration in the while loop takes constant time (O(1)), therefore the total
+complexity is derived from the number of iterations (O(log_2(n))).
 
 -----
 
