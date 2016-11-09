@@ -18,7 +18,7 @@ public boolean member(E element) {
         int iLow = 0;                               // O(1)
         int iHigh = eArray.length - 1;              // O(1)
 
-        while (iLow <= iHigh) {                                 // för loop: O(log n)
+        while (iLow <= iHigh) {                                 // för loop: O(log n) -> även för hela metoden
             int iMid = (iLow + iHigh) >>> 1;        // O(1)
             E midVal = eArray[iMid];                // O(1)
 
