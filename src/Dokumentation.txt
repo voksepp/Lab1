@@ -12,6 +12,10 @@ Dokumentation:
 Dokumentation av individuella klasser, metoder, funktioner bifogas (Javadoc)
 
 -----
+Tidskomplexitet:
+
+
+-----
 
 Testning:
 
